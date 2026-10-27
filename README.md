@@ -10,16 +10,16 @@
 ---
 
 > 🎯 **Project Overview:**  
-> Practical coursework and hands-on exercises completed during Week 3 of the **Data Technician Bootcamp**[cite: 11, 12]. This repository covers relational database design concepts, database comparison (SQL vs. NoSQL), and running SQL queries on the **Northwind** and **World** databases using Supabase[cite: 11, 12].
+> Practical coursework and hands-on exercises completed during Week 3 of the **Data Technician Bootcamp**. This repository covers relational database design concepts, database comparison (SQL vs. NoSQL), and running SQL queries on the **Northwind** and **World** databases using Supabase.
 
 ---
 
 ## 💡 What I Learned & Practiced
 
 ### 🛠️ Core Concepts
-* 🔹 **Database Fundamentals:** Understanding primary keys, foreign keys, and table relationships[cite: 11, 12].
-* 🔹 **SQL vs. NoSQL:** Comparing structured relational tables with flexible document stores[cite: 11, 12].
-* 🔹 **Database Schema Design:** Designing entity-relationship blueprints for training systems[cite: 11, 12].
+* 🔹 **Database Fundamentals:** Understanding primary keys, foreign keys, and table relationships.
+* 🔹 **SQL vs. NoSQL:** Comparing structured relational tables with flexible document stores.
+* 🔹 **Database Schema Design:** Designing entity-relationship blueprints for training systems.
 
 ### 🔍 SQL Querying Techniques
 * 🔸 **Data Filtering:** Using `WHERE`, `LIKE`, `IN`, and `BETWEEN` operators.
@@ -36,16 +36,34 @@
 ├── 📄 Data_Technician_Workbook_Week_3_SB_June_2026.docx  # Theory & completed tasks
 ├── 📄 Create Northwind Tables on Supabase.docx            # Northwind schema setup script
 ├── 📄 Create World DB on Supabase.txt                      # World DB schema setup script
-├── 📄 Day 2 Supabase SQL Queries.txt                      # Executed practice queries[cite: 11]
-└── 📄 README.md                                           # Repository documentation[cite: 12]
+├── 📄 Day 2 Supabase SQL Queries.txt                      # Executed practice queries
+└── 📄 README.md                                           # Repository documentation
 
 ---
 
 ## 💻 Sample SQL Queries
 
 ### 🏬 Northwind Database Tasks
-1. High-Value Products Filter
-Task: Retrieve all products priced over £50[cite: 11].
+
+* **Export Complete Customer Records:** The management requires a full dataset of all registered clients for internal auditing.  
+➡️ *SQL query to select all fields from the Customers table.*
+```sql
+SELECT * 
+FROM customers;
+
+```sql
+SELECT * 
+FROM customers;
+```
+
+###
+### High-Value Products Filter
+- Task: Retrieve all products priced over £50.
+
+```sql
 SELECT * 
 FROM products 
 WHERE price > 50;
+```
+
+###
