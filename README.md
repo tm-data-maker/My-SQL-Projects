@@ -54,5 +54,14 @@ FROM customers;
 ```
 ---
 
-- Targeted Customer Locations: The marketing department needs a simplified view containing only client names and their respective cities.
-- ➡️ SQL query to extract CustomerName and City columns
+* **Targeted Customer Locations:** The marketing department needs a simplified view containing only client names and their respective cities.
+- ➡️ *SQL query to extract CustomerName and City columns*
+
+```sql
+SELECT CustomerName, city 
+FROM customers;
+```
+
+---
+
+
