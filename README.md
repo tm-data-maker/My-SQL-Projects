@@ -148,6 +148,8 @@ GROUP BY c.categoryname;
 
 ### 📸 World DB Queries
 
+---
+
 * **US Cities Demographics Count:** Analyzing urban centers in the United States to calculate the total number of recorded cities.
 ➡️ *SQL query to count urban records for the 'USA' country code.*
 
