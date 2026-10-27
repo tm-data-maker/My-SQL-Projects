@@ -144,7 +144,7 @@ FROM categories c
 LEFT JOIN products p ON c.categoryid = p.categoryid 
 GROUP BY c.categoryname;
 ```
----
+
 
 ## 📸 World DB Queries
 
