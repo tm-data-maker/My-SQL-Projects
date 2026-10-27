@@ -228,17 +228,11 @@ LIMIT 10 OFFSET 30;
 
 ---
 
-## 🛠️ Tools & Technologies Used 
-
-Tool / Technology       Usage Description
-
----
-
-PostgreSQL / Supabase   Cloud database platform for hosting & running queries
-
----
-
-SQL                     Core language used for data manipulation and querying
+| Tool / Technology | Usage Description |
+| :--- | :--- |
+| **PostgreSQL / Supabase** | Cloud database platform for hosting & running queries |
+| **SQL** | Core language used for data manipulation and querying |
+| **GitHub** | Version control & project portfolio hosting |
 
 ---
 
