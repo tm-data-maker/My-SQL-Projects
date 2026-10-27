@@ -33,11 +33,11 @@
 
 ```text
 📁 My-SQL-Projects/
-├── 📄 Data_Technician_Workbook_Week_3_SB_June_2026.docx  # Theory & completed tasks
-├── 📄 Create Northwind Tables on Supabase.docx            # Northwind schema setup script
+├── 📄 Data_Technician_Workbook_Week_3_SB_June_2026.docx    # Theory & completed tasks
+├── 📄 Create Northwind Tables on Supabase.docx             # Northwind schema setup script
 ├── 📄 Create World DB on Supabase.txt                      # World DB schema setup script
-├── 📄 Day 2 Supabase SQL Queries.txt                      # Executed practice queries
-└── 📄 README.md                                           # Repository documentation
+├── 📄 Day 2 Supabase SQL Queries.txt                       # Executed practice queries
+└── 📄 README.md                                            # Repository documentation
 ```
 ---
 
