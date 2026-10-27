@@ -38,7 +38,7 @@
 ├── 📄 Create World DB on Supabase.txt                      # World DB schema setup script
 ├── 📄 Day 2 Supabase SQL Queries.txt                      # Executed practice queries
 └── 📄 README.md                                           # Repository documentation
-
+```
 ---
 
 ## 💻 Sample SQL Queries
