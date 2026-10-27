@@ -47,23 +47,12 @@
 
 * **Export Complete Customer Records:** The management requires a full dataset of all registered clients for internal auditing.  
 ➡️ *SQL query to select all fields from the Customers table.*
-```sql
-SELECT * 
-FROM customers;
 
 ```sql
 SELECT * 
 FROM customers;
 ```
+---
 
-###
-### High-Value Products Filter
-- Task: Retrieve all products priced over £50.
-
-```sql
-SELECT * 
-FROM products 
-WHERE price > 50;
-```
-
-###
+- Targeted Customer Locations: The marketing department needs a simplified view containing only client names and their respective cities.
+- ➡️ SQL query to extract CustomerName and City columns
