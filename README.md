@@ -46,8 +46,6 @@
 
 ### 🏬 Northwind Database Tasks
 
----
-
 * **Export Complete Customer Records:** The management requires a full dataset of all registered clients for internal auditing.  
 ➡️ *SQL query to select all fields from the Customers table.*
 
@@ -147,11 +145,9 @@ FROM categories c
 LEFT JOIN products p ON c.categoryid = p.categoryid 
 GROUP BY c.categoryname;
 ```
-
+---
 
 ### 📸 World DB Queries
-
----
 
 * **US Cities Demographics Count:** Analyzing urban centers in the United States to calculate the total number of recorded cities.
 ➡️ *SQL query to count urban records for the 'USA' country code.*
