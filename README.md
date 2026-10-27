@@ -43,7 +43,10 @@
 
 ## 💻 Sample SQL Queries
 
+
 ### 🏬 Northwind Database Tasks
+
+---
 
 * **Export Complete Customer Records:** The management requires a full dataset of all registered clients for internal auditing.  
 ➡️ *SQL query to select all fields from the Customers table.*
