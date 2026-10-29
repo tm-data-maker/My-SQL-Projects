@@ -229,6 +229,35 @@ LIMIT 10 OFFSET 30;
 
 ---
 
+## 💻 SQL Query Examples & Database Schema
+
+### 1. 🗂️ Relational Database Schema (Northwind DB)
+* **Task Description:** Designing and visualizing entity-relationship models for relational databases to understand table cardinalities, primary keys, and foreign keys.
+
+  ![Northwind ER Diagram](Northwind_ER_Diagram.png)
+
+* **Technical Explanation:**
+  * **Entity Relationships:** Maps the relational architecture between `customers`, `orders`, `order_details`, `products`, and other core tables.
+  * **Key Constraints:** Establishes data integrity using primary keys (`customerid`, `orderid`) and foreign keys to enable multi-table operations.
+
+---
+
+### 2. 🔗 SQL Multi-Table Joins
+* **Task Description:** Writing and executing SQL queries to extract combined insights from multiple relational tables using `JOIN` operations.
+
+  ```sql
+  -- SQL Joins
+  select customername, orderid, orderdate
+  from customers -- left table
+  join orders -- right table
+  on customers.customerid = orders.customerid;
+  ```
+  ![SQL Join Query Output](SQL_Join_Query_Output.png)
+* **Technical Explanation:**
+  * **Data Retrieval:** Uses the `SELECT` statement to pull specific customer names, order IDs, and dates.   * **Relational Matching:** Implements an `INNER JOIN` combining the `customers` and `orders` tables based on the matching `customerid` field.
+
+---
+
 | Tool / Technology | Usage Description |
 | :--- | :--- |
 | **PostgreSQL / Supabase** | Cloud database platform for hosting & running queries |
