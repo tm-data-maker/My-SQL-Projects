@@ -252,7 +252,7 @@ LIMIT 10 OFFSET 30;
   join orders -- right table
   on customers.customerid = orders.customerid;
   ```
-  ![SQL Join Query Output](SQL_Join_Query_Output.png)
+  ![SQL Join Query Output](SQL_Join_QueryOutput.png)
 * **Technical Explanation:**
   * **Data Retrieval:** Uses the `SELECT` statement to pull specific customer names, order IDs, and dates.   * **Relational Matching:** Implements an `INNER JOIN` combining the `customers` and `orders` tables based on the matching `customerid` field.
 
